@@ -1,0 +1,147 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - hexo-renderer-stylus > stylus > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-renderer-stylus > nib > stylus > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-server > compression > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-server > connect > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-server > morgan > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-server > connect > finalhandler > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-server > serve-static > send > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-fs > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-deployer-git > hexo-fs > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > nunjucks > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-generator-feed > nunjucks > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-cli > hexo-fs > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-07T21:46:20.670Z'
+  'npm:extend:20180424':
+    - hexo > cheerio > jsdom > request > extend:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-fs > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-deployer-git > hexo-fs > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > nunjucks > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-generator-feed > nunjucks > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-cli > hexo-fs > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2022-10-07T21:46:20.670Z'
+  'npm:hoek:20180212':
+    - hexo > cheerio > jsdom > request > hawk > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > cheerio > jsdom > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > cheerio > jsdom > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > cheerio > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-deployer-git > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > nunjucks > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-generator-feed > nunjucks > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-deployer-git > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > nunjucks > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-generator-feed > nunjucks > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-deployer-git > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > nunjucks > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-generator-feed > nunjucks > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-cli > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-deployer-git > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > nunjucks > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-generator-feed > nunjucks > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-cli > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-cli > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-cli > hexo-fs > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:46:20.670Z'
+  SNYK-JS-LODASH-567746:
+    - hexo > lodash:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > cheerio > lodash:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > warehouse > lodash:
+        patched: '2022-10-07T21:46:20.670Z'
+  'npm:marked:20170907':
+    - hexo-renderer-marked > marked:
+        patched: '2022-10-07T21:46:20.670Z'
+  'npm:mime:20170907':
+    - hexo-server > serve-static > send > mime:
+        patched: '2022-10-07T21:46:20.670Z'
+  'npm:moment:20161019':
+    - hexo-deployer-git > moment:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > moment-timezone > moment:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-log > bunyan > moment:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-cli > hexo-log > bunyan > moment:
+        patched: '2022-10-07T21:46:20.670Z'
+  'npm:stringstream:20180511':
+    - hexo > cheerio > jsdom > request > stringstream:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-fs > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-deployer-git > hexo-fs > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > nunjucks > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-generator-feed > nunjucks > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-cli > hexo-fs > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2022-10-07T21:46:20.670Z'
+  'npm:tough-cookie:20170905':
+    - hexo > cheerio > jsdom > tough-cookie:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > cheerio > jsdom > request > tough-cookie:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-fs > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-deployer-git > hexo-fs > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > nunjucks > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-generator-feed > nunjucks > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo > hexo-cli > hexo-fs > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-07T21:46:20.670Z'
+  'npm:uglify-js:20151024':
+    - hexo > swig > uglify-js:
+        patched: '2022-10-07T21:46:20.670Z'
+    - hexo-deployer-git > swig > uglify-js:
+        patched: '2022-10-07T21:46:20.670Z'
